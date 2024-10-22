@@ -7,15 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D06AD7C62CC7D81E001F656F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06AD7C52CC7D81E001F656F /* AppDelegate.swift */; };
-		D06AD7C82CC7D81E001F656F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06AD7C72CC7D81E001F656F /* SceneDelegate.swift */; };
-		D06AD7CA2CC7D81E001F656F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06AD7C92CC7D81E001F656F /* ViewController.swift */; };
 		D06AD7CD2CC7D81E001F656F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D06AD7CC2CC7D81E001F656F /* Base */; };
 		D06AD7CF2CC7D81F001F656F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06AD7CE2CC7D81F001F656F /* Assets.xcassets */; };
 		D06AD7D22CC7D81F001F656F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D06AD7D12CC7D81F001F656F /* Base */; };
-		D06AD7DD2CC7D81F001F656F /* GameOfThronesXcode15Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06AD7DC2CC7D81F001F656F /* GameOfThronesXcode15Tests.swift */; };
-		D06AD7E72CC7D81F001F656F /* GameOfThronesXcode15UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06AD7E62CC7D81F001F656F /* GameOfThronesXcode15UITests.swift */; };
-		D06AD7E92CC7D81F001F656F /* GameOfThronesXcode15UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06AD7E82CC7D81F001F656F /* GameOfThronesXcode15UITestsLaunchTests.swift */; };
+		D07B8A932CC7D88B00A77891 /* BooksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A792CC7D88B00A77891 /* BooksTableViewCell.swift */; };
+		D07B8A942CC7D88B00A77891 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A782CC7D88B00A77891 /* Book.swift */; };
+		D07B8A952CC7D88B00A77891 /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A802CC7D88B00A77891 /* CharacterTableViewCell.swift */; };
+		D07B8A962CC7D88B00A77891 /* HousesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A862CC7D88B00A77891 /* HousesViewController.swift */; };
+		D07B8A972CC7D88B00A77891 /* CharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A7F2CC7D88B00A77891 /* CharactersViewModel.swift */; };
+		D07B8A982CC7D88B00A77891 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A912CC7D88B00A77891 /* RootViewModel.swift */; };
+		D07B8A992CC7D88B00A77891 /* HouseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A882CC7D88B00A77891 /* HouseTableViewCell.swift */; };
+		D07B8A9A2CC7D88B00A77891 /* JSONDecoderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A8B2CC7D88B00A77891 /* JSONDecoderService.swift */; };
+		D07B8A9B2CC7D88B00A77891 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A822CC7D88B00A77891 /* Appearance.swift */; };
+		D07B8A9C2CC7D88B00A77891 /* GCDBlackBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A832CC7D88B00A77891 /* GCDBlackBox.swift */; };
+		D07B8A9D2CC7D88B00A77891 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A8C2CC7D88B00A77891 /* MockNetworkService.swift */; };
+		D07B8A9E2CC7D88B00A77891 /* RequestConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A8E2CC7D88B00A77891 /* RequestConstant.swift */; };
+		D07B8A9F2CC7D88B00A77891 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A7D2CC7D88B00A77891 /* Character.swift */; };
+		D07B8AA02CC7D88B00A77891 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A852CC7D88B00A77891 /* House.swift */; };
+		D07B8AA12CC7D88B00A77891 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A7A2CC7D88B00A77891 /* BooksViewController.swift */; };
+		D07B8AA22CC7D88B00A77891 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A8D2CC7D88B00A77891 /* NetworkService.swift */; };
+		D07B8AA32CC7D88B00A77891 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A902CC7D88B00A77891 /* RootViewController.swift */; };
+		D07B8AA42CC7D88B00A77891 /* DateFormatterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A8A2CC7D88B00A77891 /* DateFormatterService.swift */; };
+		D07B8AA52CC7D88B00A77891 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A7E2CC7D88B00A77891 /* CharactersViewController.swift */; };
+		D07B8AA62CC7D88B00A77891 /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A7B2CC7D88B00A77891 /* BooksViewModel.swift */; };
+		D07B8AA72CC7D88B00A77891 /* HousesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8A872CC7D88B00A77891 /* HousesViewModel.swift */; };
+		D07B8AA92CC7D8A600A77891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8AA82CC7D8A600A77891 /* AppDelegate.swift */; };
+		D07B8AAC2CC7D8F600A77891 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = D07B8AAB2CC7D8F600A77891 /* PromiseKit */; };
+		D07B8AB42CC7D97B00A77891 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8AB12CC7D97B00A77891 /* MockNetworkService.swift */; };
+		D07B8AB52CC7D97B00A77891 /* HousesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8AAF2CC7D97B00A77891 /* HousesViewModelTests.swift */; };
+		D07B8AB62CC7D97B00A77891 /* CharactersViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8AAE2CC7D97B00A77891 /* CharactersViewModelTests.swift */; };
+		D07B8AB72CC7D97B00A77891 /* NetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8AB22CC7D97B00A77891 /* NetworkServiceTests.swift */; };
+		D07B8AB82CC7D97B00A77891 /* RootViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8AB32CC7D97B00A77891 /* RootViewControllerTests.swift */; };
+		D07B8AB92CC7D97B00A77891 /* MockJSONDecoderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8AB02CC7D97B00A77891 /* MockJSONDecoderService.swift */; };
+		D07B8ABA2CC7D97B00A77891 /* BooksViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8AAD2CC7D97B00A77891 /* BooksViewModelTests.swift */; };
+		D07B8ABE2CC7D98D00A77891 /* CharactersViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8ABC2CC7D98D00A77891 /* CharactersViewControllerUITests.swift */; };
+		D07B8ABF2CC7D98D00A77891 /* HousesViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8ABD2CC7D98D00A77891 /* HousesViewControllerUITests.swift */; };
+		D07B8AC02CC7D98D00A77891 /* BooksViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8ABB2CC7D98D00A77891 /* BooksViewControllerUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,18 +64,44 @@
 
 /* Begin PBXFileReference section */
 		D06AD7C22CC7D81E001F656F /* GameOfThronesXcode15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfThronesXcode15.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D06AD7C52CC7D81E001F656F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D06AD7C72CC7D81E001F656F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D06AD7C92CC7D81E001F656F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D06AD7CC2CC7D81E001F656F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D06AD7CE2CC7D81F001F656F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D06AD7D12CC7D81F001F656F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D06AD7D32CC7D81F001F656F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D06AD7D82CC7D81F001F656F /* GameOfThronesXcode15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfThronesXcode15Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D06AD7DC2CC7D81F001F656F /* GameOfThronesXcode15Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfThronesXcode15Tests.swift; sourceTree = "<group>"; };
 		D06AD7E22CC7D81F001F656F /* GameOfThronesXcode15UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfThronesXcode15UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D06AD7E62CC7D81F001F656F /* GameOfThronesXcode15UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfThronesXcode15UITests.swift; sourceTree = "<group>"; };
-		D06AD7E82CC7D81F001F656F /* GameOfThronesXcode15UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfThronesXcode15UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D07B8A782CC7D88B00A77891 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		D07B8A792CC7D88B00A77891 /* BooksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTableViewCell.swift; sourceTree = "<group>"; };
+		D07B8A7A2CC7D88B00A77891 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		D07B8A7B2CC7D88B00A77891 /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
+		D07B8A7D2CC7D88B00A77891 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		D07B8A7E2CC7D88B00A77891 /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
+		D07B8A7F2CC7D88B00A77891 /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
+		D07B8A802CC7D88B00A77891 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
+		D07B8A822CC7D88B00A77891 /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
+		D07B8A832CC7D88B00A77891 /* GCDBlackBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDBlackBox.swift; sourceTree = "<group>"; };
+		D07B8A852CC7D88B00A77891 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		D07B8A862CC7D88B00A77891 /* HousesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesViewController.swift; sourceTree = "<group>"; };
+		D07B8A872CC7D88B00A77891 /* HousesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesViewModel.swift; sourceTree = "<group>"; };
+		D07B8A882CC7D88B00A77891 /* HouseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTableViewCell.swift; sourceTree = "<group>"; };
+		D07B8A8A2CC7D88B00A77891 /* DateFormatterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterService.swift; sourceTree = "<group>"; };
+		D07B8A8B2CC7D88B00A77891 /* JSONDecoderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoderService.swift; sourceTree = "<group>"; };
+		D07B8A8C2CC7D88B00A77891 /* MockNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
+		D07B8A8D2CC7D88B00A77891 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		D07B8A8E2CC7D88B00A77891 /* RequestConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestConstant.swift; sourceTree = "<group>"; };
+		D07B8A902CC7D88B00A77891 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		D07B8A912CC7D88B00A77891 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		D07B8AA82CC7D8A600A77891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D07B8AAD2CC7D97B00A77891 /* BooksViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModelTests.swift; sourceTree = "<group>"; };
+		D07B8AAE2CC7D97B00A77891 /* CharactersViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModelTests.swift; sourceTree = "<group>"; };
+		D07B8AAF2CC7D97B00A77891 /* HousesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesViewModelTests.swift; sourceTree = "<group>"; };
+		D07B8AB02CC7D97B00A77891 /* MockJSONDecoderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockJSONDecoderService.swift; sourceTree = "<group>"; };
+		D07B8AB12CC7D97B00A77891 /* MockNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
+		D07B8AB22CC7D97B00A77891 /* NetworkServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceTests.swift; sourceTree = "<group>"; };
+		D07B8AB32CC7D97B00A77891 /* RootViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewControllerTests.swift; sourceTree = "<group>"; };
+		D07B8ABB2CC7D98D00A77891 /* BooksViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewControllerUITests.swift; sourceTree = "<group>"; };
+		D07B8ABC2CC7D98D00A77891 /* CharactersViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewControllerUITests.swift; sourceTree = "<group>"; };
+		D07B8ABD2CC7D98D00A77891 /* HousesViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesViewControllerUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D07B8AAC2CC7D8F600A77891 /* PromiseKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +153,13 @@
 		D06AD7C42CC7D81E001F656F /* GameOfThronesXcode15 */ = {
 			isa = PBXGroup;
 			children = (
-				D06AD7C52CC7D81E001F656F /* AppDelegate.swift */,
-				D06AD7C72CC7D81E001F656F /* SceneDelegate.swift */,
-				D06AD7C92CC7D81E001F656F /* ViewController.swift */,
+				D07B8AA82CC7D8A600A77891 /* AppDelegate.swift */,
+				D07B8A7C2CC7D88B00A77891 /* Books */,
+				D07B8A812CC7D88B00A77891 /* Characters */,
+				D07B8A842CC7D88B00A77891 /* Helper */,
+				D07B8A892CC7D88B00A77891 /* Houses */,
+				D07B8A8F2CC7D88B00A77891 /* Network */,
+				D07B8A922CC7D88B00A77891 /* Roots */,
 				D06AD7CB2CC7D81E001F656F /* Main.storyboard */,
 				D06AD7CE2CC7D81F001F656F /* Assets.xcassets */,
 				D06AD7D02CC7D81F001F656F /* LaunchScreen.storyboard */,
@@ -113,7 +171,13 @@
 		D06AD7DB2CC7D81F001F656F /* GameOfThronesXcode15Tests */ = {
 			isa = PBXGroup;
 			children = (
-				D06AD7DC2CC7D81F001F656F /* GameOfThronesXcode15Tests.swift */,
+				D07B8AAD2CC7D97B00A77891 /* BooksViewModelTests.swift */,
+				D07B8AAE2CC7D97B00A77891 /* CharactersViewModelTests.swift */,
+				D07B8AAF2CC7D97B00A77891 /* HousesViewModelTests.swift */,
+				D07B8AB02CC7D97B00A77891 /* MockJSONDecoderService.swift */,
+				D07B8AB12CC7D97B00A77891 /* MockNetworkService.swift */,
+				D07B8AB22CC7D97B00A77891 /* NetworkServiceTests.swift */,
+				D07B8AB32CC7D97B00A77891 /* RootViewControllerTests.swift */,
 			);
 			path = GameOfThronesXcode15Tests;
 			sourceTree = "<group>";
@@ -121,10 +185,74 @@
 		D06AD7E52CC7D81F001F656F /* GameOfThronesXcode15UITests */ = {
 			isa = PBXGroup;
 			children = (
-				D06AD7E62CC7D81F001F656F /* GameOfThronesXcode15UITests.swift */,
-				D06AD7E82CC7D81F001F656F /* GameOfThronesXcode15UITestsLaunchTests.swift */,
+				D07B8ABB2CC7D98D00A77891 /* BooksViewControllerUITests.swift */,
+				D07B8ABC2CC7D98D00A77891 /* CharactersViewControllerUITests.swift */,
+				D07B8ABD2CC7D98D00A77891 /* HousesViewControllerUITests.swift */,
 			);
 			path = GameOfThronesXcode15UITests;
+			sourceTree = "<group>";
+		};
+		D07B8A7C2CC7D88B00A77891 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				D07B8A782CC7D88B00A77891 /* Book.swift */,
+				D07B8A792CC7D88B00A77891 /* BooksTableViewCell.swift */,
+				D07B8A7A2CC7D88B00A77891 /* BooksViewController.swift */,
+				D07B8A7B2CC7D88B00A77891 /* BooksViewModel.swift */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		D07B8A812CC7D88B00A77891 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				D07B8A7D2CC7D88B00A77891 /* Character.swift */,
+				D07B8A7E2CC7D88B00A77891 /* CharactersViewController.swift */,
+				D07B8A7F2CC7D88B00A77891 /* CharactersViewModel.swift */,
+				D07B8A802CC7D88B00A77891 /* CharacterTableViewCell.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		D07B8A842CC7D88B00A77891 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D07B8A822CC7D88B00A77891 /* Appearance.swift */,
+				D07B8A832CC7D88B00A77891 /* GCDBlackBox.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D07B8A892CC7D88B00A77891 /* Houses */ = {
+			isa = PBXGroup;
+			children = (
+				D07B8A852CC7D88B00A77891 /* House.swift */,
+				D07B8A862CC7D88B00A77891 /* HousesViewController.swift */,
+				D07B8A872CC7D88B00A77891 /* HousesViewModel.swift */,
+				D07B8A882CC7D88B00A77891 /* HouseTableViewCell.swift */,
+			);
+			path = Houses;
+			sourceTree = "<group>";
+		};
+		D07B8A8F2CC7D88B00A77891 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D07B8A8A2CC7D88B00A77891 /* DateFormatterService.swift */,
+				D07B8A8B2CC7D88B00A77891 /* JSONDecoderService.swift */,
+				D07B8A8C2CC7D88B00A77891 /* MockNetworkService.swift */,
+				D07B8A8D2CC7D88B00A77891 /* NetworkService.swift */,
+				D07B8A8E2CC7D88B00A77891 /* RequestConstant.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D07B8A922CC7D88B00A77891 /* Roots */ = {
+			isa = PBXGroup;
+			children = (
+				D07B8A902CC7D88B00A77891 /* RootViewController.swift */,
+				D07B8A912CC7D88B00A77891 /* RootViewModel.swift */,
+			);
+			path = Roots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,10 +326,12 @@
 					};
 					D06AD7D72CC7D81F001F656F = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1600;
 						TestTargetID = D06AD7C12CC7D81E001F656F;
 					};
 					D06AD7E12CC7D81F001F656F = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1600;
 						TestTargetID = D06AD7C12CC7D81E001F656F;
 					};
 				};
@@ -215,6 +345,9 @@
 				Base,
 			);
 			mainGroup = D06AD7B92CC7D81E001F656F;
+			packageReferences = (
+				D07B8AAA2CC7D8F600A77891 /* XCRemoteSwiftPackageReference "PromiseKit" */,
+			);
 			productRefGroup = D06AD7C32CC7D81E001F656F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +391,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D06AD7CA2CC7D81E001F656F /* ViewController.swift in Sources */,
-				D06AD7C62CC7D81E001F656F /* AppDelegate.swift in Sources */,
-				D06AD7C82CC7D81E001F656F /* SceneDelegate.swift in Sources */,
+				D07B8AA92CC7D8A600A77891 /* AppDelegate.swift in Sources */,
+				D07B8A932CC7D88B00A77891 /* BooksTableViewCell.swift in Sources */,
+				D07B8A942CC7D88B00A77891 /* Book.swift in Sources */,
+				D07B8A952CC7D88B00A77891 /* CharacterTableViewCell.swift in Sources */,
+				D07B8A962CC7D88B00A77891 /* HousesViewController.swift in Sources */,
+				D07B8A972CC7D88B00A77891 /* CharactersViewModel.swift in Sources */,
+				D07B8A982CC7D88B00A77891 /* RootViewModel.swift in Sources */,
+				D07B8A992CC7D88B00A77891 /* HouseTableViewCell.swift in Sources */,
+				D07B8A9A2CC7D88B00A77891 /* JSONDecoderService.swift in Sources */,
+				D07B8A9B2CC7D88B00A77891 /* Appearance.swift in Sources */,
+				D07B8A9C2CC7D88B00A77891 /* GCDBlackBox.swift in Sources */,
+				D07B8A9D2CC7D88B00A77891 /* MockNetworkService.swift in Sources */,
+				D07B8A9E2CC7D88B00A77891 /* RequestConstant.swift in Sources */,
+				D07B8A9F2CC7D88B00A77891 /* Character.swift in Sources */,
+				D07B8AA02CC7D88B00A77891 /* House.swift in Sources */,
+				D07B8AA12CC7D88B00A77891 /* BooksViewController.swift in Sources */,
+				D07B8AA22CC7D88B00A77891 /* NetworkService.swift in Sources */,
+				D07B8AA32CC7D88B00A77891 /* RootViewController.swift in Sources */,
+				D07B8AA42CC7D88B00A77891 /* DateFormatterService.swift in Sources */,
+				D07B8AA52CC7D88B00A77891 /* CharactersViewController.swift in Sources */,
+				D07B8AA62CC7D88B00A77891 /* BooksViewModel.swift in Sources */,
+				D07B8AA72CC7D88B00A77891 /* HousesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +420,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D06AD7DD2CC7D81F001F656F /* GameOfThronesXcode15Tests.swift in Sources */,
+				D07B8AB42CC7D97B00A77891 /* MockNetworkService.swift in Sources */,
+				D07B8AB52CC7D97B00A77891 /* HousesViewModelTests.swift in Sources */,
+				D07B8AB62CC7D97B00A77891 /* CharactersViewModelTests.swift in Sources */,
+				D07B8AB72CC7D97B00A77891 /* NetworkServiceTests.swift in Sources */,
+				D07B8AB82CC7D97B00A77891 /* RootViewControllerTests.swift in Sources */,
+				D07B8AB92CC7D97B00A77891 /* MockJSONDecoderService.swift in Sources */,
+				D07B8ABA2CC7D97B00A77891 /* BooksViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +434,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D06AD7E72CC7D81F001F656F /* GameOfThronesXcode15UITests.swift in Sources */,
-				D06AD7E92CC7D81F001F656F /* GameOfThronesXcode15UITestsLaunchTests.swift in Sources */,
+				D07B8ABE2CC7D98D00A77891 /* CharactersViewControllerUITests.swift in Sources */,
+				D07B8ABF2CC7D98D00A77891 /* HousesViewControllerUITests.swift in Sources */,
+				D07B8AC02CC7D98D00A77891 /* BooksViewControllerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,8 +651,8 @@
 		D06AD7F02CC7D81F001F656F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -502,6 +661,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.capitan.com.GameOfThronesXcode15Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameOfThronesXcode15.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GameOfThronesXcode15";
@@ -511,8 +671,8 @@
 		D06AD7F12CC7D81F001F656F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -530,7 +690,7 @@
 		D06AD7F32CC7D81F001F656F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -538,6 +698,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.capitan.com.GameOfThronesXcode15UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = GameOfThronesXcode15;
@@ -547,7 +708,7 @@
 		D06AD7F42CC7D81F001F656F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -601,6 +762,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D07B8AAA2CC7D8F600A77891 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D07B8AAB2CC7D8F600A77891 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D07B8AAA2CC7D8F600A77891 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D06AD7BA2CC7D81E001F656F /* Project object */;
 }
